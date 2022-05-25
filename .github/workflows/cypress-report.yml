@@ -23,7 +23,7 @@ jobs:
       uses: cypress-io/github-action@v2
       with:
           # Specify Browser since container image is compile with Firefox
-          browser: chrome 100
+          browser: chrome
     
       
     - name: Copy test execution videos and screenshots
