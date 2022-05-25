@@ -20,8 +20,11 @@ jobs:
         $(npm bin)/cypress verify
         
     - name: Run cypress tests
-      run: npm run test:chrome
-      continue-on-error: false
+      uses: cypress-io/github-action@v2
+      with:
+          # Specify Browser since container image is compile with Firefox
+          browser: chrome 100
+    
       
     - name: Copy test execution videos and screenshots
       run: |
