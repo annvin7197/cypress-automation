@@ -1,4 +1,4 @@
-describe('Cross browser compatibility', function()
+/*describe('Cross browser compatibility', function()
 
 
 {
@@ -18,4 +18,4 @@ describe('Cross browser compatibility', function()
         })
        
     })
-})
+})*/
