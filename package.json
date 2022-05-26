@@ -5,19 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "chrome",
-    
-  // use mochawesome reporter as usually
-  "reporter": "mochawesome",
-  "reporterOptions": {
-    // disable overwrite to generate many JSON reports
-    "overwrite": false,
-    // do not generate intermediate HTML reports
-    "html": true,
-    // generate intermediate JSON reports
-    "json": false
-  
-}
-  },
+  }
   "keywords": [],
   "author": "",
   "license": "ISC",
