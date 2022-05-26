@@ -1,4 +1,4 @@
-describe('Functional Test Cases', function()
+describe('Other Test Cases', function()
 {
 
 it('Verify the messages for invalid logins.', function()
