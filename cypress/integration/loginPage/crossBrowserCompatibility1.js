@@ -1,4 +1,4 @@
-it('Verify if a user will be able to log in with a valid username and valid password', function()
+/*it('Verify if a user will be able to log in with a valid username and valid password', function()
     {
         cy.fixture('credentials.json').then((credentials) => {
             var em = credentials.email2
@@ -14,4 +14,4 @@ it('Verify if a user will be able to log in with a valid username and valid pass
         })
        
     })
-
+*/
