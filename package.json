@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "chrome"
-  }
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
