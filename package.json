@@ -4,15 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "chrome"
+    "test": "chrome",
+    "combine": "report"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cypress": "^9.7.0"
-  },
-  "devDependencies": {
-    "mochawesome-merge": "^4.2.1"
   }
 }
