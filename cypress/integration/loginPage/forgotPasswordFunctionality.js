@@ -1,5 +1,5 @@
 
-describe('Forgot Password Functionality', function()
+/*describe('Forgot Password Functionality', function()
 {
         it('Verify the ‘Forgot Password’ functionality.', function()
         {
@@ -97,4 +97,4 @@ describe('Forgot Password Functionality', function()
                 return false
             })
         })
-    })
+    })*/
