@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "chrome",
-    "combine": "report"
+    "test": "chrome"
   },
   "keywords": [],
   "author": "",
