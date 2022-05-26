@@ -24,6 +24,7 @@ jobs:
       with:
           # Specify Browser since container image is compile with Firefox
           browser: chrome
+      continue-on-error: true
     
       
     - name: Copy test execution videos and screenshots
