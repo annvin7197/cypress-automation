@@ -8,7 +8,7 @@ name: Generate Cypress Reports
 on:
   schedule: ## Schedule the job to run at a particular time.
     # * is a special character in YAML so you have to quote this string
-    - cron:  '30 16 * * *'
+    - cron:  '40 6 * * *'
 jobs:
   cypress-test:
     
@@ -44,7 +44,7 @@ jobs:
   
     - name: Generate HTML report
       run: npm run report:generate
-          
+              
     - name: Deploy report page to Github Page
       uses: peaceiris/actions-gh-pages@v3
       with:
