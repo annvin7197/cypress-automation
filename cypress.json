@@ -1,6 +1,11 @@
+// cypress.json
 {
-    "reporter": "cypress-multi-reporters",
-    "reporterOptions": {
-        "configFile": "reporter-config.json"
-    }
-}
+ "reporter": "mochawesome",
+ "reporterOptions": {
+   "charts": true,
+   "overwrite": false,
+   "html": false,
+   "json": true,
+   "reportDir": "cypress/report/mochawesome-report"
+  }
+ }
