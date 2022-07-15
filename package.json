@@ -27,7 +27,7 @@
     "posttest": "npm run combine-reports && npm run generate-report",
     "test": "npm run scripts || npm run posttest"
   }
-  }
+ }
   
-  }
+  
 
